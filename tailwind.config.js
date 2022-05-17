@@ -5,6 +5,7 @@ module.exports = {
       colors: {
         navbar: '#242526',
       },
+      fontFamily: { code: ['"Source Code Pro"', 'sans-serif'] },
     },
   },
   plugins: [],
