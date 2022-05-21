@@ -12,7 +12,7 @@ import Container from '../Container';
 function Overview() {
   return (
     <Container>
-      <div className="flex flex-col items-center justify-center h-[calc(100vh-80px)] lg:h-[calc(100vh-80px)] snap-always snap-start">
+      <div className="flex flex-col items-center justify-center">
         {/* Title */}
         <div className="flex mb-6">
           <h1 className="text-center text-2xl md:text-4xl font-bold capitalize">
