@@ -5,12 +5,9 @@ function App() {
   const appRef = useRef();
 
   return (
-    <div
-      ref={appRef}
-      className="snap-y snap-mandatory scroll-smooth overflow-scroll h-[calc(100vh-88px)] lg:h-auto lg:snap-none lg:overflow-visible"
-    >
-      <ScrollDotIndicator ref={appRef} />
+    <div ref={appRef} className="lg:h-auto lg:overflow-visible">
       <Navbar />
+      <ScrollDotIndicator ref={appRef} />
       <Overview />
       <Skills />
       <Projects />
