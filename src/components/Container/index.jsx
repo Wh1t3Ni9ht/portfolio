@@ -2,13 +2,16 @@ import PropTypes from 'prop-types';
 
 function Container({ children }) {
   const internalStyles = `
-    px-4 mx-auto
+    px-4
+    mx-auto
     sm:max-w-xl
+    sm:px-0
     md:max-w-2xl
     lg:max-w-4xl
     xl:max-w-6xl
     2xl:max-w-full
-    2xl:px-32`;
+    2xl:px-32
+  `;
 
   return <div className={internalStyles}>{children}</div>;
 }
