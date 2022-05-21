@@ -4,12 +4,19 @@
 
 body {
   margin: 0;
+  padding-top: 80px;
   font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
     'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #d1d5db;
   background-color: #121314;
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding-right: 40px;
+  }
 }
 
 code {
