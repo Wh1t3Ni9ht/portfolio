@@ -46,10 +46,7 @@ function Projects() {
 
   return (
     <Container>
-      <div
-        id="projects"
-        className="flex flex-col items-center justify-evenly h-[calc(100vh-80px)] lg:h-[calc(100vh-80px)] snap-always snap-start"
-      >
+      <div id="projects" className="flex flex-col items-center justify-evenly mt-32">
         {/* Title */}
         <div className="flex items-center">
           <h1 className="text-center text-2xl md:text-4xl font-bold capitalize">Projects</h1>
